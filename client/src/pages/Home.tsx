@@ -45,10 +45,10 @@ const Home = () => {
               Travel through time and witness the evolution of historical sites as they appeared throughout history.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <Link href="/ar-features" className="bg-[#C75D3A] hover:bg-opacity-90 text-white font-bold py-3 px-6 rounded-md text-center transition-all transform hover:scale-105 inline-block">
+              <Link href="" className="bg-[#C75D3A] hover:bg-opacity-90 text-white font-bold py-3 px-6 rounded-md text-center transition-all transform hover:scale-105 inline-block">
                 Explore AR Features
               </Link>
-              <Link href="/burana-tower" className="bg-white hover:bg-[#E8DBC5] text-[#1A3A63] font-bold py-3 px-6 rounded-md text-center transition-all transform hover:scale-105 inline-block">
+              <Link href="" className="bg-white hover:bg-[#E8DBC5] text-[#1A3A63] font-bold py-3 px-6 rounded-md text-center transition-all transform hover:scale-105 inline-block">
                 Discover Burana
               </Link>
             </div>
@@ -105,7 +105,7 @@ const Home = () => {
                 Our AR reconstruction showcases how this fortress complex evolved over centuries, from its glory days as a bustling Silk Road city to its current state as an archaeological site.
               </p>
               
-              <Link href="/burana-tower" className="inline-block bg-[#C75D3A] hover:bg-opacity-90 text-white font-bold py-3 px-6 rounded-md transition-all transform hover:scale-105">
+              <Link href="" className="inline-block bg-[#C75D3A] hover:bg-opacity-90 text-white font-bold py-3 px-6 rounded-md transition-all transform hover:scale-105">
                 Learn More
               </Link>
             </div>
@@ -159,7 +159,7 @@ const Home = () => {
           </div>
           
           <div className="text-center mt-8">
-            <Link href="/gallery" className="inline-block bg-[#1A3A63] hover:bg-opacity-90 text-white font-bold py-3 px-6 rounded-md transition-all transform hover:scale-105">
+            <Link href="" className="inline-block bg-[#1A3A63] hover:bg-opacity-90 text-white font-bold py-3 px-6 rounded-md transition-all transform hover:scale-105">
               View Full Gallery
             </Link>
           </div>
@@ -176,10 +176,10 @@ const Home = () => {
             Explore our AR features and learn about Burana Tower, the first of many historical sites we're bringing to life through augmented reality.
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center">
-            <Link href="/ar-features" className="bg-[#C75D3A] hover:bg-opacity-90 text-white font-bold py-3 px-6 rounded-md text-center transition-all transform hover:scale-105 inline-block">
+            <Link href="" className="bg-[#C75D3A] hover:bg-opacity-90 text-white font-bold py-3 px-6 rounded-md text-center transition-all transform hover:scale-105 inline-block">
               Explore AR Features
             </Link>
-            <Link href="/about" className="bg-transparent border-2 border-white hover:bg-white hover:text-[#1A3A63] text-white font-bold py-3 px-6 rounded-md text-center transition-all transform hover:scale-105 inline-block">
+            <Link href="" className="bg-transparent border-2 border-white hover:bg-white hover:text-[#1A3A63] text-white font-bold py-3 px-6 rounded-md text-center transition-all transform hover:scale-105 inline-block">
               About Our Team
             </Link>
           </div>
