@@ -16,10 +16,10 @@ const Header = () => {
 
   const navLinks = [
     { path: "/", label: "Home" },
-    { path: "/burana-tower", label: "Burana Tower" },
-    { path: "/ar-features", label: "AR Features" },
-    { path: "/gallery", label: "Gallery" },
-    { path: "/about", label: "About Us" },
+    { path: "#", label: "Burana Tower" },
+    { path: "#", label: "AR Features" },
+    { path: "#", label: "Gallery" },
+    { path: "#", label: "About Us" },
   ];
 
   return (

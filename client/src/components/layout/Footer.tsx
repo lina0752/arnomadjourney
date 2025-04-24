@@ -35,13 +35,13 @@ const Footer = () => {
             <h4 className="font-['Montserrat'] font-semibold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li><Link href="/" className="hover:text-[#C75D3A] transition-colors">Home</Link></li>
-              <li><Link href="/burana-tower" className="hover:text-[#C75D3A] transition-colors">Burana Tower</Link></li>
-              <li><Link href="/ar-features" className="hover:text-[#C75D3A] transition-colors">AR Features</Link></li>
-              <li><Link href="/gallery" className="hover:text-[#C75D3A] transition-colors">Gallery</Link></li>
-              <li><Link href="/about" className="hover:text-[#C75D3A] transition-colors">About Us</Link></li>
+              <li><Link href="#" className="hover:text-[#C75D3A] transition-colors">Burana Tower</Link></li>
+              <li><Link href="#" className="hover:text-[#C75D3A] transition-colors">AR Features</Link></li>
+              <li><Link href="#" className="hover:text-[#C75D3A] transition-colors">Gallery</Link></li>
+              <li><Link href="#" className="hover:text-[#C75D3A] transition-colors">About Us</Link></li>
               <li>
                 <a 
-                  href="https://kyrgyzstan.travel" 
+                  href="#" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="hover:text-[#C75D3A] transition-colors"
@@ -57,11 +57,11 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <i className="fas fa-envelope text-[#C75D3A] mr-3"></i>
-                <a href="mailto:info@arnomad.kg" className="hover:text-[#C75D3A] transition-colors">info@arnomad.kg</a>
+                <a href="mailto:urmanbetova_a@icloud.com" className="hover:text-[#C75D3A] transition-colors">urmanbetova_a@icloud.com</a>
               </li>
               <li className="flex items-center">
                 <i className="fas fa-phone text-[#C75D3A] mr-3"></i>
-                <a href="tel:+996700123456" className="hover:text-[#C75D3A] transition-colors">+996 (700) 123-456</a>
+                <a href="tel:+996707200903" className="hover:text-[#C75D3A] transition-colors">+996 (707) 200-903</a>
               </li>
               <li className="flex items-center">
                 <i className="fas fa-map-marker-alt text-[#C75D3A] mr-3"></i>
@@ -89,7 +89,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-gray-700 text-center text-sm">
           <p>© {new Date().getFullYear()} AR Nomad. All rights reserved.</p>
           <p className="mt-2">
-            Created by <strong>Aibek Japarov</strong> | Group: <strong>Digital Heritage KG-21</strong> | Email: <a href="mailto:a.japarov@example.com" className="text-[#C75D3A]">a.japarov@example.com</a>
+            Created by <strong>Urmanbetova Aelina</strong> | Group: <strong>Digital Heritage KG-25</strong> | Email: <a href="mailto:urmanbetova_a@icloud.com" className="text-[#C75D3A]">urmanbetova_a@icloud.com</a>
           </p>
         </div>
       </div>
