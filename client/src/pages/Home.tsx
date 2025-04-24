@@ -1,5 +1,10 @@
 import { Link } from "wouter";
 import PatternDivider from "@/components/patterns/PatternDivider";
+import NaturaImage from '../pictures/natura.jpeg';
+import BuranaVideo from '../videos/burana.mp4';
+import Yurt from '../pictures/yurtcamp.jpg';
+import Burana from '../pictures/burana1.jpg'
+import AlaKol from '../pictures/kyrgyzstanalakul-1024x768.jpg'
 
 const Home = () => {
   const features = [
@@ -26,7 +31,7 @@ const Home = () => {
       <header id="home" className="relative bg-[#1A3A63] text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1570654231374-9294e3dfbd2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+            src={NaturaImage} 
             alt="Kyrgyzstan mountain landscape" 
             className="w-full h-full object-cover opacity-40"
           />
@@ -82,11 +87,14 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
-              <img 
-                src="https://images.unsplash.com/photo-1625470793672-577d77cb50be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                alt="Burana Tower" 
-                className="w-full h-auto rounded-lg shadow-xl"
-              />
+            <video 
+              src={BuranaVideo} 
+              className="w-full h-auto rounded-lg shadow-xl" 
+              controls 
+              muted 
+              autoPlay 
+              loop
+             />
             </div>
             <div className="md:w-1/2">
               <h2 className="font-['Montserrat'] font-bold text-3xl md:text-4xl text-[#1A3A63] mb-6">Burana Tower: Our First AR Project</h2>
@@ -115,7 +123,7 @@ const Home = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all">
               <img 
-                src="https://images.unsplash.com/photo-1618142990632-1afb1bd67e7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                src={Yurt} 
                 alt="Kyrgyzstan yurt camp in mountains" 
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
@@ -127,7 +135,7 @@ const Home = () => {
             
             <div className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all">
               <img 
-                src="https://images.unsplash.com/photo-1625470793672-577d77cb50be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                src={Burana} 
                 alt="Burana Tower" 
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
@@ -139,8 +147,8 @@ const Home = () => {
             
             <div className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all">
               <img 
-                src="https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                alt="Mountain lake in Kyrgyzstan" 
+              src={AlaKol}                
+              alt="Mountain lake in Kyrgyzstan" 
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
               <div className="p-4 bg-white">
